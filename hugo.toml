@@ -1,0 +1,3 @@
+baseURL = 'https://blog.markholm.es/'
+locale = 'en-us'
+title = 'Mark Holmes - Software Engineering Blog'
