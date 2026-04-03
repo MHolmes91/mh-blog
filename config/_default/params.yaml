@@ -13,8 +13,8 @@ favicon:
 
 # Author info
 author:
-  name: "Hugo Narrow"
-  title: "A Clean and Minimal Hugo Theme"
+  name: "Mark Holmes"
+  title: "A cool software engineer"
   description: "Focused on content and user experience."
   avatar: "/images/avatar.svg"
   social:
@@ -35,9 +35,9 @@ header:
     image: "/images/logo.svg" # Logo path relative to static folder, leave empty to use site title first letter
     link: "/" # Click to home page
   # UI Components Control (header controls)
-  showThemeSwitch: true # Set to false to hide theme style switcher (palette icon)
-  showDarkModeSwitch: true # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: true # Set to false to hide language switcher
+  showThemeSwitch: false # Set to false to hide theme style switcher (palette icon)
+  showDarkModeSwitch: false # Set to false to hide dark mode switcher (sun/moon icon)
+  showLanguageSwitch: false # Set to false to hide language switcher
   languageSwitchMode: "dropdown" # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
 # Dock display mode
@@ -55,7 +55,7 @@ toc:
   position: "center" # Options: center | side
 
 # Default color scheme
-colorScheme: "default"
+colorScheme: "minimal"
 themes:
   default:
     name: "Default"
@@ -102,18 +102,18 @@ home:
   # Available sections: author-section, recent-posts, featured-projects, page-content
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
-    - author-section
-    - page-content
+    # - author-section
+    # - page-content
     - recent-posts
-    - featured-projects.html
+    # - featured-projects.html
 
 # Post configuration
 post:
   showRelated: true # show related posts
-  relatedPostsCount: 3 # posts number
+  relatedPostsCount: 2 # posts number
   license:
     show: true
-    author: "Hugo Narrow"
+    author: "Mark Holmes"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
     url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -179,7 +179,7 @@ analytics:
 
 # KaTeX
 katex:
-  enabled: true
+  enabled: false
   delimiters:
     - left: "$$"
       right: "$$"
