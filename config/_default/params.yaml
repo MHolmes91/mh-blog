@@ -1,9 +1,9 @@
 # Basic site info with SEO
-description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-defaultAuthor: "Hugo Narrow"
+description: "Mark's Software Engineering Blog"
+keywords: ["Blog", "Experiments", "Technology", "Programming"]
+defaultAuthor: "Mark Holmes"
 language: "en"
-shortName: "Hugo Narrow" # PWA
+shortName: "Mark" # PWA
 images:
   - "/images/og-default.avif"
 
