@@ -1,9 +1,0 @@
-baseURL: https://blog.markholm.es/
-locale: en-us
-title: Mark Holmes - Blog
-module:
-  hugoVersion:
-    extended: true
-    min: 0.159.0
-  imports:
-    - path: github.com/tom2almighty/hugo-narrow
