@@ -1,0 +1,49 @@
+baseURL: https://mh-blog.ondigitalocean.app/
+languageCode: en-us
+title: Mark's Notes
+
+module:
+  imports:
+    - path: github.com/MHolmes91/mh-blog-theme
+
+markup:
+  tableOfContents:
+    endLevel: 4
+
+privacy:
+  x:
+    simple: true
+
+outputs:
+  home:
+    - html
+    - rss
+    - json
+
+taxonomies:
+  tag: tags
+  series: series
+
+related:
+  includeNewer: true
+  threshold: 20
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: summary
+      weight: 70
+    - name: date
+      weight: 20
+      pattern: "200601"
+
+params:
+  description: Mark Holmes' personal blog
+  siteIcon: /favicon.svg
+  intro:
+    title: Mark's Notes
+    body: Writing on software, systems, and the work behind the work.
+  socials:
+    - name: GitHub
+      url: https://github.com/MHolmes91
+      icon: github
